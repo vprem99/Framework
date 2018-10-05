@@ -19,6 +19,8 @@ public class ExecuteTest extends startUp
 	  case "Login":
 	  		LF.Login(data);
 	  		break;
+	  case "search":
+		  Search.search(data);
 	  }
 	  
 	  }
@@ -29,7 +31,7 @@ public class ExecuteTest extends startUp
 	  Excel.ExcelConfig(p.getProperty("exelpath"), p.getProperty("sheetname"));
 	  Object data[][]=new Object[Excel.ROWNUM()][2];
 	  
-	  for(int i=1;i<3;i++)
+	  for(int i=1;i<4;i++)
 	  {
 		  data[i-1][0]=Excel.Read(i,0);
 		  data[i-1][1]=Excel.Read(i, 1);

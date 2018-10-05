@@ -13,7 +13,7 @@ public class startUp
 	static Properties p;
 	static LoginFactory LF;
 	static SignUpFactory SF;
-	
+	static searchFactory Search;
 	@BeforeSuite
 	public void BeforeSuite() throws Exception
 	{
@@ -24,6 +24,7 @@ public class startUp
 		w=BrowserFactory.startBrowser(p.getProperty("CPATH"));
 		SF=new SignUpFactory(w);
 		LF=new LoginFactory(w);
+		Search=new searchFactory(w);
 
 		w.get(p.getProperty("URL"));
 	}
