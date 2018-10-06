@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9295" started-at="2018-10-05T06:15:10Z" finished-at="2018-10-05T06:15:19Z">
+  <suite name="Suite" duration-ms="13269" started-at="2018-10-05T08:48:17Z" finished-at="2018-10-05T08:48:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9295" started-at="2018-10-05T06:15:10Z" finished-at="2018-10-05T06:15:19Z">
+    <test name="Test" duration-ms="13269" started-at="2018-10-05T08:48:17Z" finished-at="2018-10-05T08:48:30Z">
       <class name="testCases.ExecuteTest">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:testCases.ExecuteTest@6e4784bc]" name="BeforeSuite" is-config="true" duration-ms="7886" started-at="2018-10-05T06:15:02Z" finished-at="2018-10-05T06:15:10Z">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:testCases.ExecuteTest@2667f029]" name="BeforeSuite" is-config="true" duration-ms="13849" started-at="2018-10-05T08:48:03Z" finished-at="2018-10-05T08:48:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="TestExecute(java.lang.String, java.lang.String)[pri:0, instance:testCases.ExecuteTest@6e4784bc]" name="TestExecute" duration-ms="7527" started-at="2018-10-05T06:15:10Z" data-provider="dp" finished-at="2018-10-05T06:15:18Z">
+        <test-method status="PASS" signature="TestExecute(java.lang.String, java.lang.String)[pri:0, instance:testCases.ExecuteTest@2667f029]" name="TestExecute" duration-ms="7985" started-at="2018-10-05T08:48:17Z" data-provider="dp" finished-at="2018-10-05T08:48:25Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestExecute -->
-        <test-method status="PASS" signature="TestExecute(java.lang.String, java.lang.String)[pri:0, instance:testCases.ExecuteTest@6e4784bc]" name="TestExecute" duration-ms="1249" started-at="2018-10-05T06:15:18Z" data-provider="dp" finished-at="2018-10-05T06:15:19Z">
+        <test-method status="PASS" signature="TestExecute(java.lang.String, java.lang.String)[pri:0, instance:testCases.ExecuteTest@2667f029]" name="TestExecute" duration-ms="1623" started-at="2018-10-05T08:48:25Z" data-provider="dp" finished-at="2018-10-05T08:48:27Z">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestExecute -->
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:testCases.ExecuteTest@6e4784bc]" name="AfterSuite" is-config="true" duration-ms="1012" started-at="2018-10-05T06:15:19Z" finished-at="2018-10-05T06:15:20Z">
+        <test-method status="PASS" signature="TestExecute(java.lang.String, java.lang.String)[pri:0, instance:testCases.ExecuteTest@2667f029]" name="TestExecute" duration-ms="3309" started-at="2018-10-05T08:48:27Z" data-provider="dp" finished-at="2018-10-05T08:48:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[search]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestExecute -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:testCases.ExecuteTest@2667f029]" name="AfterSuite" is-config="true" duration-ms="1089" started-at="2018-10-05T08:48:30Z" finished-at="2018-10-05T08:48:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
       </class> <!-- testCases.ExecuteTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

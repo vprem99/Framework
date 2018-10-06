@@ -17,6 +17,7 @@ public class LoginFactory
 	@FindBy(id="ch_login_email") WebElement E_EM;
 	@FindBy(id="ch_login_password") WebElement E_PWD;
 	@FindBy(id="ch_login_btn") WebElement E_LG;
+	//@FindBy(xpath="//*[contains(text(),'')]")
 
 
 	public void Login(String data)
