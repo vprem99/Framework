@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="DemoProject" default="run">
+	<target name="clean">
+		<delete dir="D:\DemoProject\Build"/>
+	</target>
+	
+	<target name="init" depends="clean">
+		<mkdir dir="D:\DemoProject\Build"/>
+		<mkdir dir="D:\DemoProject\Build\Classes"/>
+		<mkdir dir="D:\DemoProject\Build\JarFile"/>
+		
+	</target>
+	<target name="compile" depends="init">
+		<javac srcdir="D:\DemoProject\src"
+       destdir="D:\DemoProject\Build\Classes"
+       classpath="selenium-server-standalone-3.4.0.jar" includeantruntime="false"/>
+     </target>
+	
+	<target name="build" depends="compile">
+		<jar destfile="D:\DemoProject\Build\JarFile\app.jar" basedir="D:\DemoProject\Build\Classes"/>
+		
+	</target>
+	<target name="run" depends="build">
+	<java  classname="Day1.NewTest"  >
+		<classpath path="D:\DemoProject\Build\Classes" />	
+		</java>
+	</target>
+</project>
