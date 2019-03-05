@@ -1,0 +1,97 @@
+Selenium Introduction:
+----------------------
+
+What is Selenium ?:
+------------------
+1.It is Functional Testing Tool
+2.Best suited for Regression Testing
+3.Designed for Web Application Testing.
+(Desktop Based Application Testing not possible)
+4.Free & Open Source.
+5.Platform Independant(Supports MAC,Windows,Linux)
+6.Supports Multiple languages for Scripting
+i.e. Ruby, Python, Java, C#, etc.
+7.Supports Multiple Browsers
+i.e. Firefox,Chrome,IE,Safari, Opera etc.
+
+Test Suite: Group of Test Cases
+
+Selenium Suite:
+--------------
+1.Selenium IDE
+	1.Available as Firefox & Chrome Plug in.
+	2.It is having Capability of Record & Playback
+	3.Single Machine + Two Browsers(Chrome & Firefox only)
+	4.Test Designing & Test Execution Both happens
+
+2.Selenium RC/Selenium 1.0 (Outdated Since it is Slow)
+3.Selenium WebDriver/Selenium 2.0/Selenium 3.0
+	1.Both Supports Multiple languages for Scripting
+	i.e. Ruby, Python, Java, C#, etc.
+	2.Both Supports Multiple Browsers
+	i.e. Firefox,Chrome,IE,Safari, Opera etc.
+	3.Single Machine + Multiple Browsers
+	4.Test Designing & Test Execution Both happens
+
+4.Selenium Grid
+	1.Only Test Execution happens
+	2.Parallel Testing Happens
+	(Simultanously execution happens on Multiple Machine & Browser )
+	3.Multiple Machine + Multiple Browsers
+
+Selenium History:
+-----------------
+1.Jason Huggins	Written A JavaScript having capabity
+of Record & Playback named as JavaScriptTestRunner
+later it is re-named as Selenium Core
+
+
+QTP vs Selenium
+----------------
+1.QTP Supports Windows OS only
+2.Paid
+3.Limted WebTesting
+(Supports only IE & Limited version of firefox)
+
+
+-------------------------------------------------------------
+1.Record & Play
+2.Manually Script Creation
+	OPen
+	type
+	CLick
+	echo
+	pause
+
+
+Locators:
+---------
+It is Unique Property of Web Object
+
+1.id
+2.name
+3.linktext
+4.CSS
+5.xpath
+
+
+/html/body/form/div[6]/table/tbody/tr/td[3]/table[2]/tbody/tr/td/input[1]
+
+
+
+CheckPoint/verification point/Assertion point
+---------------------------------------------
+A point where you do Comparision between Expected 
+and Actual
+
+
+
+
+
+
+
+
+
+
+	
+
