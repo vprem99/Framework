@@ -1,0 +1,70 @@
+Selenium WebDriver:
+-------------------
+
+Environment for WebDriver:
+--------------------------
+1.JDK
+(java -version)
+2.Editor
+notepad, notepad++, eclipse, netbeans etc.
+3.Language Binder
+webdriver java libraries
+4.Browser Drivers
+firefox > geckodriver
+chrome  > chromedriver
+
+Exception in thread "main" java.lang.IllegalStateException:
+ The path to the driver executable must be set by the webdriver.gecko.driver system property;
+
+-----------------------------------------------------------
+
+CSS Selector:
+-------------
+
+1.CSS with ID:
+--------------
+tagname#id
+
+2.Css with name/value/type/any prop
+------------------------------------
+tagname[name/value/type='value of that prop']
+
+3.CSS with class
+-----------------
+tagname.classname
+
+
+
+
+
+https://opensource-demo.orangehrmlive.com/index.php/auth/login
+---------------------------------------------------------------
+Synchronization Problem:
+------------------------
+Matching Speed between two things. In our case Selenium & 
+AUT(OrangeHRM)
+
+1.Thread.sleep(Not recommended)
+	>Its feature of Java
+	>Takes whole time
+2.Implicitwait
+	>Global wait
+	>Takes only required time
+	>waits only for visibilty of element
+3.ExplicitWait
+	>Applicable only for specific Element/window/alert
+	>Takes only required time
+	>waits for Varies combinations i.e visibilty,invisibity 
+	of element ,alert, frame, attribute etc. 
+	>Pooling time is 500ms
+4.FluentWait
+
+
+
+http://www.magneticautomation.in/
+
+
+
+
+
+ 
