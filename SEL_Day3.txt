@@ -1,0 +1,38 @@
+ACtions Class:
+---------------
+If you want to control mouse & Keyboard events
+then use Actions Class
+
+Methods used frequently:
+------------------------
+1.moveToElement()
+2.click()
+3.KeyDown()
+4.KeyUp()
+5.dragAndDrop()
+6.doubleClick()
+7.contextClick()
+   
+Actions & Action
+-----------------
+Actions: 
+>It is Class 
+>Used to work with mouse & Keyboard events
+
+Action
+-------
+>It is Interface
+>Used for making series (composite) of actions & Later perform it.
+
+------------------------------------------------------------------
+
+Two Xpath:
+1.Relative Xpath
+2.Absolute Xpath
+
+/html/body/div[3]/div[1]/ul/li[5]/a
+/html/body/div[3]/div[1]/ul/li[4]/a
+/html/body/div[3]/div[1]/ul/li[1]/a
+//*[@id="menu_download"]/a
+
+
