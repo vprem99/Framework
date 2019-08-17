@@ -1,0 +1,75 @@
+1.Junit Suite
+2.Using Junit and WebDriver script, open https://www.cii.in/OnlineRegistration.aspx in Firefox and do the below: (10 points)
+1. Select “Number of Attendees” as 6 (2 points)
+2. Assert the row count is 6 (2 points)
+3. Select 1st-row title as ‘Col’(1 point) (Please note use different method for every selection)
+4. Select 2nd-row title as ‘CS’ (1 point) (Please note use different method for every selection)
+5. Select 3rd-row title as ‘Dr’ (1 point) (Please note use different method for every selection)
+6. Print all the options that are available in the title (3 points)
+
+3.Using TestNG and WebDriver script, open https://www.meripustak.com/ in Google Chrome and do the below: .(12 Points)
+1. Print the width and height of the logo. (2 points)
+2. Under Follow us section on the bottom, extract and print the href of ‘Google’ social media icon (Right a script in such a way, if position of ‘Google icon is changed tomorrow in the social media icons, our script should work) (3 points)
+3. Click on shopping cart when item in cart is 0 (1 point)
+4. Assert the message in the shopping cart table “No Item is Added In Cart yet.Cart is Empty!!!” (2 points)
+5. Add any one ‘History’ book in cart (2 points)
+6. Verify if this message exist in the shopping cart table “No Item is Added In Cart yet.Cart is Empty!!!” (2 point
+
+4.Open the link https://www.woodlandworldwide.com/ on the browser now search for the items related to the below-given product names.
+Test1: Use the product name “Bags”
+Test2: Use product name “Leather” and
+Test3: Use the product name “Full Sleeve”.
+These product names are to be saved in an Excel file, read the product names from this file and pass to the search box.
+Select the filter ‘Low to High’ and test whether the first 8 products are in ascending order of the price.
+Write a script for Google chrome in TestNG using WebDriver. (12 points)
+
+5.Using Junit and WebDriver script, open https://www.premierleague.com/ in Firefox and do the below: (11 points)
+1. Click on Tables from the header (1 point)
+2. From the tables, open ‘Manchester City’ club in a new window via context-click (3 points)
+3. Find official website URL on the page and print on the console from a newly opened window (3 points)
+4. Print the page title of the newly opened window (1 point)
+5. Go back to the main window (2 points)
+6. Print the page title again (1 point)*/
+
+
+6.Using Junit and WebDriver, open ‘https://www.hometown.in/’ in Firefox and do the below. (10 Points)
+a. Select Electronics from ‘More’ menu (2 points)
+b. From Filter, section select the color as ‘Grey’ (2 points)
+c. When you go to the first product image, you will see Quick View option, click on that (2 points)
+d. Assert that product name contains Grey in a name. (2 points)
+e. Close the Quick view window and verify if Grey is also present in ‘Applied filters’ on the page (2 points)*/
+
+
+
+1.Junit Question Solution
+2.Junit Suite
+3.POM
+4.Selenium IDE
+	1.echo
+	2.X is variable in Selenium IDE ..How to use value of 	variable
+	3.
+
+
+1.Syntax of Starting Hub/Node which was used in CMD
+2.Syntax of Starting Browser in Remote System
+3.Port Number of Hub: 4444
+Port Number of Node: 5555	
+Port Number of Jenkins :8080
+
+
+testng.xml file  | test name | parallel
+
+
+Jars Needed
+1.Selenium Jars
+2.POI
+3.Drivers
+4.Junit 4
+5.TestNG
+ 
+
+
+
+
+
+
